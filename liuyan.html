@@ -1,0 +1,56 @@
+<!DOCTYPE html><!--定义文件为html类型-->
+<html lang="en">
+
+    <head><!--用于定义网页的头部，里面有一些标签-->
+        <meta charset="UTF-8"><!--设置字体大小-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--IE浏览器按某种方式进行渲染-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--设置网页基础显示配置-->
+        <title>个人介绍</title><!--标题-->
+        <link rel="stylesheet" href="./css/style.css"><!--与CSS进行链接-->
+    
+    </head>
+    
+    <body><!--设置网页主体部分-->
+        <div id="bigbox"><!--设置一个框架-->
+            <div id="banner"><!--设置网页上部的一个图片-->
+                <img src="./imgs/banner.png" alt=""><!--放个上部的图-->
+            </div>
+            <nav>   <!--设置导航链接-->
+                <a class="dangqian" href="./index.html">首页</a>
+                <a href="./duanwen.html">短文</a><!--超链接引用-->
+                <a href="./rizhi.html">日志</a>
+                <a href="./liuyan.html">留言板</a>
+            </nav>
+            <div id="main"><!--设置main标签定义主体部分-->
+                <div id="main_left"><!--主页左栏-->
+                    <h2>关于我</h2><!--定义小标题-->
+                    <img src="./imgs/me.png" alt=""><!--插入照片-->
+                    <p><!--定义span组合文档的行内元素-->
+                        <span>姓名</span>:王智溢<br>
+                        <span>性别</span>:男<br>
+                        <span>爱好</span>:阅读 踢足球 打游戏<br>
+                        <span>性格</span>:乐观<br>
+                        <span>家乡</span>:湖北郧阳区<br>
+                        <span>专业</span>:信管
+                    </p>
+                </div>
+            <div id="main_right"><!--定义右栏-->
+                <h2>留言板</h2>
+                <div id="liuyan">
+                    <span>昵称：</span><input type="text"><br><!--type规定input元素类型为text-->
+                    <span>联系方式：</span><input type="text"><br>
+                    <span>标题：</span><input type="text"><br>
+                    <span>留言内容：</span><textarea name="" id="" cols="30" rows="10"></textarea><br><!--定义一个文本框并且规定大小-->
+                    <button>提交</button>
+                </div>
+            </div>
+        </div>
+        <footer><!--定义页脚区-->
+            <p>
+                属于我的网页
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

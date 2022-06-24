@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {/*定义主体背景颜色*/
+    background-color: #4B7C99;
+}
+
+#bigbox {/*定义上边框的宽度以及外边距自适应*/
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner {/*定义广告的宽度以及文字大小*/
+    width: 1000px;
+    font-size: 0px;
+}
+
+#banner img {/*定义广告图片的宽度*/
+    width: 1000px;
+}
+
+nav {/*定义导航的背景颜色宽度以及高度*/
+    background-color: #CCD0D9;
+    width: 1000px;
+    height: 60px;
+}
+
+nav a {/*定义导航的超链*/
+    text-decoration: none;/*文本没有下划线*/
+    line-height: 60px;/*文本行高*/
+    margin-left: 50px;/*文本左外边距*/
+    margin-right: 50px;/*文本右外边距*/
+    color: #020C16;/*文本颜色*/
+    font-weight: bold;/*文本粗细*/
+}
+
+nav a:hover {/*定义当鼠标移到超链接上的颜色*/
+    color: #1a9be6;
+}
+
+.dangqian {/*定义当前的颜色*/
+    color: #1a9be6;
+
+}
+
+#main {/*定义主页的高度宽度以及外边框自适应背景颜色*/
+    height: 490px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #86aacb;
+}
+
+#main_left {/*定义主页左栏的宽度以及生成框的类型背景颜色以及向左浮动*/
+    width: 300px;
+    display: inline-block;
+    background-color: #86aacb;
+    float: left;
+}
+
+h2 {/*定义盒模型的并排，左内边距，文字大小，行高以及背景颜色与标题颜色*/
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #03151F;
+    color: #CCD0D9;
+}
+
+#main_left img {/*左栏图片宽度*/
+    width: 300px;
+}
+
+#main_left p {/*左栏文字框的左外边距以及行高*/
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+#main_left span {/*左栏文字粗细*/
+    font-weight: bold;
+}
+
+#main_right {
+    position: relative;
+    width: 680px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 200px;
+}
+
+#main_right img {/*定义主体右栏样式*/
+    position: absolute;
+    width: 260px;
+    right: 0px;
+    top: 30px;
+}
+
+#main_right p {/*右栏的宽度，内联块状元素，左外边距，行高，上边距*/
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+    text-indent: 32px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+#luxing {/*旅行块的背景颜色宽度*/
+    background-color: #86aacb;
+    width: 1000px;
+}
+
+#luxing div {/*旅行文字大小*/
+    font-size: 0px;
+}
+
+#picture {/*链接图片的文字大小，内联展示，左右上边距*/
+    font-size: 0px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#picture img {/*图片宽度*/
+    width: 200px;
+}
+
+#picture p {/*图片下文字大小，文本排列到中间，行高*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+footer {/*页脚行高，文字大小，文字中间排列，背景颜色*/
+    line-height: 60px;
+    font-size: 14px; 
+    text-align: center;
+    background-color: #CCD0D9;
+}
+
+#main_right ul li {/*右栏的无序列表宽度，左外边距，文字大小，上边距，下边框，内边距中下高度*/
+    width: 660px;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 10px;
+}
+
+#main_right ul li span {/*右栏列表的文字大小，文字粗细*/
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#liuyan {/*留言边框的宽度，左外边距以及外边距*/
+    width: 660px;
+    margin-left: 10px;
+    margin: 20px;
+}
+
+#liuyan span {/*留言内联展示，宽度以及行高*/
+    display: inline-block;
+    width: 80px;
+    line-height: 40px;
+}
+
+button {/*按钮标签的宽度高度，左外边距*/
+    width: 100px;
+    height: 30px;
+    margin-left: 80px;
+}
